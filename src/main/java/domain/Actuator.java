@@ -1,4 +1,4 @@
 package domain;
 
-public class Actuator {
+public class Actuator extends Unit{
 }
