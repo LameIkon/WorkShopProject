@@ -10,5 +10,4 @@ public class Sensor extends Unit{
         super(name,id);
         this.value = value;
     }
-
 }
