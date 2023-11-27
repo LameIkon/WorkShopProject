@@ -2,7 +2,7 @@ package domain;
 
 import java.util.UUID;
 
-public class Sensor extends Unit{
+public abstract class Sensor extends Unit{
 
     private double value;
 
@@ -10,4 +10,7 @@ public class Sensor extends Unit{
         super(name,id);
         this.value = value;
     }
+
+    public double getValue(){return value;}
+
 }
